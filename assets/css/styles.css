@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colours=====*/
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*=====font type =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -270,6 +270,7 @@ img{
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
+
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
@@ -279,6 +280,7 @@ img{
   display: flex;
   align-items: center;
 }
+
 .skills__bar{
   position: absolute;
   left: 0;
@@ -289,15 +291,18 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 80%;
 }
 .skills__css{
-  width: 85%;
+  width: 80%;
 }
 .skills__js{
-  width: 65%;
+  width: 80%;
 }
 .skills__ux{
+  width: 85%;
+}
+.skills_python{
   width: 85%;
 }
 .skills__img{
@@ -448,3 +453,4 @@ img{
     right: 10%;
   }
 }
+
